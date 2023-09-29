@@ -206,3 +206,7 @@ header div {
   flex-direction: row;
   gap: 2rem;
 }
+
+.texto_construccion{
+    text-align: center;
+}
