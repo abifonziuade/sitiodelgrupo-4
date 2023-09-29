@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-right: 50px;
+    padding-right: 1rem;
     border-bottom: 1px solid #eff3f7;
     
 }
@@ -26,7 +26,7 @@ header {
 header a {
     text-decoration: none;
     color: #1A4301;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 footer {
@@ -37,11 +37,11 @@ footer {
     align-items: flex-end;
     justify-content: space-between;
     border-top: 1px solid #e5ebf1;
-    padding: 0px 50px;
+    padding: 0px 4%;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 1rem;
     color: #6C757D;
 }
 
@@ -57,16 +57,16 @@ footer p {
 }
 
 .logo {
-width: 105px;
+width: 50%;
 padding-left: 3%;
 }
 
 header div {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 2rem;
 }
 
 p {
-font-size: 20px;
+font-size: 1.2rem;
 }
