@@ -4,6 +4,7 @@ body {
   background-color:#ffffff;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  padding: 0;
 }
 
 main {
@@ -43,7 +44,7 @@ input {
     display: none;
   }
   .footer {
-    position: fixed;
+    position:absolute;
     bottom: 0px;
   }
 
@@ -121,6 +122,7 @@ button {
   background: #1a4301;
   cursor: pointer;
   margin-bottom: 5px;
+  overflow: hidden
 }
 
 button:hover {
@@ -197,10 +199,7 @@ a {
 }
 footer {
   width: 100%;
-  margin-top: auto;
-  position: fixed;
-  padding-left: 2%;
-  bottom: 0;
+  position: absolute;
   border-top: 1px solid #e5ebf1;
   background-color: white;
 }
@@ -250,4 +249,3 @@ header div {
   justify-content: center;
 }
 
-.arbol
