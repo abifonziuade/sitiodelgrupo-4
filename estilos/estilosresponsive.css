@@ -50,6 +50,11 @@ input {
   .contenedor {
     flex-flow: row nowrap;
   }
+  .paleta-colores{
+    width: 30%;
+    align-self: center;
+    padding-left: 2%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -233,3 +238,16 @@ header div {
 .texto_construccion{
     text-align: center;
 }
+
+.paleta-colores{
+  background-size:contain;
+  background-position: right;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+.arbol
