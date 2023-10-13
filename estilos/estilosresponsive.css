@@ -5,6 +5,8 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   padding: 0;
+  box-sizing: border-box;
+  
 }
 
 main {
@@ -40,12 +42,17 @@ input {
 }
 
 @media (min-width: 701px) {
+  .contenedor {
+    flex-flow: row nowrap;
+  }
+ 
   .burger {
     display: none;
   }
   .footer {
-    position:absolute;
-    bottom: 0px;
+  position: fixed;
+    bottom: 0px;            
+}
   }
 
   .contenedor {
@@ -199,7 +206,6 @@ a {
 }
 footer {
   width: 100%;
-  position: absolute;
   border-top: 1px solid #e5ebf1;
   background-color: white;
 }
