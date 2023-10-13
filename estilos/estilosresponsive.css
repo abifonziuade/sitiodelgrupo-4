@@ -115,6 +115,7 @@ button {
   border: 2px solid;
   background: #1a4301;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 button:hover {
@@ -176,6 +177,17 @@ a {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
+  justify-content: center;
+}
+.fondo-ods{
+  background: url(../imagenes/ods12.jpeg) no-repeat center bottom;
+  background-size:contain;
+  background-position: right;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  margin-right: 5%;
   justify-content: center;
 }
 footer {

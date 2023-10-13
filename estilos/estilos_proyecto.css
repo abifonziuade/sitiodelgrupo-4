@@ -86,17 +86,6 @@ footer p {
 
     }
 
-    .fondo-ods{
-            background: url(../imagenes/ods12.jpeg) no-repeat center bottom;
-            background-size:contain;
-            background-position: right;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            padding-left: 5%;
-            margin-right: 5%;
-            justify-content: center;
-    }
 
   
     .button {
