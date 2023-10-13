@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     padding-right: 1rem;
     border-bottom: 1px solid #eff3f7;
+    font-weight: bold;
     
 }
 
@@ -58,7 +59,55 @@ footer p {
 
     
     h1 {
-        margin-left: 5rem; 
+        margin-left: 8rem; 
+        margin-right: 8rem; 
         text-align: center;
         margin-top: 5rem;
+        color: #245501;
     }
+
+    h2 {
+            margin-left: 8rem; 
+            margin-right: 8rem; 
+            text-align: center;
+            margin-top: 2rem;
+            color: #245501;
+    }
+
+    .texto {
+        font-size: 1rem;
+        margin-left: 8rem; 
+        margin-right: 8rem;   
+        text-align: justify;
+        justify-content: center;
+    }
+    
+    .texto-centrado {
+        font-size: 1rem;
+        margin-left: 8rem; 
+        margin-right: 8rem;   
+        text-align: center;
+        justify-content: center;
+    }
+
+    
+.logo-avances{
+    width: 12%;
+    align-self: center;
+}
+
+.paleta-colores{
+    width: 30%;
+    align-self: center;
+    padding-left: 2%;
+}
+
+.arbol{
+    width: 70%;
+    align-self: center;
+    padding-left: 5%;
+}
+
+i{
+    color: #347904;
+}

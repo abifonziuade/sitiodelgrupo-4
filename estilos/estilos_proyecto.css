@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     padding-right: 1rem;
     border-bottom: 1px solid #eff3f7;
+    font-weight: bold;
     
 }
 
@@ -56,13 +57,18 @@ footer p {
         gap: 2rem;
     }
 
-    p {
-    font-size: 1rem;
-    margin-left: 2rem; 
-    margin-right: 2rem;   
-    text-align: justify;
+    .parrafo {
+        font-size: 1rem;
+        margin-left: 8rem; 
+        margin-right: 8rem;   
+        text-align: justify;
+        justify-content: center;
     }
 
-    h2 {
-        margin-left: 2rem; 
+    h1 {
+        margin-left: 8rem; 
+        margin-right: 8rem; 
+        text-align: center;
+        margin-top: 5rem;
+        color:#245501;
     }

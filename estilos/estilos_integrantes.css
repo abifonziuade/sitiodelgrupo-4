@@ -21,6 +21,13 @@ header {
   padding-right: 1rem;
   border-bottom: 1px solid #eff3f7;
 }
+
+header div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 header a {
   text-decoration: none;
   color: #1a4301;
@@ -53,16 +60,6 @@ header div {
   flex-direction: row;
   gap: 60px;
 }
-
-/* .contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 20px;
-  flex-grow: 1;
-  margin-left: 10%;
-  align-items: center;
-  grid-column-gap: 8%;
-} */
 
 .integrante {
   display: inline-block;
