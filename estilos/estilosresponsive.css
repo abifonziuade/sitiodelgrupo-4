@@ -4,6 +4,9 @@ body {
   background-color:#ffffff;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -181,9 +184,7 @@ a {
 footer {
   width: 100%;
   margin-top: auto;
-  position: fixed;
   text-align: right;
-  bottom: 0;
   border-top: 1px solid #e5ebf1;
   background-color: white;
 }
@@ -193,13 +194,28 @@ footer p {
   color: #6c757d;
   padding-right: 2%;
 }
-header {
+
+.header {
   position: sticky;
   top: 0;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
   z-index: 1;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5rem;
   padding-right: 1rem;
   font-weight: bold;
+  border-bottom: 1px solid #eff3f7;
+}
+
+.header-mobile {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: #ffffff;
+  width: 100%;
   border-bottom: 1px solid #eff3f7;
 }
 
@@ -207,6 +223,35 @@ header a {
   text-decoration: none;
   color: #1a4301;
   font-size: 1rem;
+}
+
+header ul{
+  list-style: none;
+}
+
+.hamb {
+  display: none;
+}
+
+.side-menu {
+  display: none;
+}
+
+.nav{
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  background-color: #F8F9FA;
+  box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.15);
+}
+
+.nav{
+  max-height: 0;
+  transition: max-height .5s ease-out;
+}
+
+.side-menu:checked ~ nav{
+  max-height: 50%;
 }
 
 .logo {
@@ -258,8 +303,7 @@ h2 {
 
 
 .logo-avances{
-width: 12%;
-align-self: center;
+  align-self: center;
 }
 
 .paleta-colores{
@@ -284,4 +328,63 @@ color: #347904;
   margin-right: 8rem;   
   text-align: justify;
   justify-content: center;
+}
+
+.contenedor-identidad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8rem; 
+  margin-right: 8rem;   
+  
+}
+
+.item-identidad {
+  flex: 0 0 33.333333%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-identidad-imagen {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.columna-home {
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .header {
+    display: none;
+  }
+
+  footer {
+      flex-direction: column;
+      padding: 0;
+      padding-top: 1rem;
+      justify-content: space-around;
+  }
+
+  header i{
+      color: #6C757D;
+      font-size: 2rem;
+  }
+  
+  .hamb{
+    display: block;
+    cursor: pointer;
+    float: right;
+    padding: 5% 5%;
+  }
+  
+  .logo {
+      display: inline-block;
+      font-size: 2rem;
+      color: #6C757D;
+      margin-left: 5%;
+      margin-top: 3%;
+      font-weight: 600;
+  }
 }
