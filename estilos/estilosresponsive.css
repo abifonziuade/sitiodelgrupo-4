@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body {
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 main {
@@ -45,24 +44,23 @@ input {
   .contenedor {
     flex-flow: row nowrap;
   }
- 
+
   .burger {
     display: none;
   }
   .footer {
-  position: fixed;
-    bottom: 0px;            
+    position: fixed;
+    bottom: 0px;
+  }
 }
-  }
 
-  .contenedor {
-    flex-flow: row nowrap;
-  }
-  .paleta-colores{
-    width: 30%;
-    align-self: center;
-    padding-left: 2%;
-  }
+.contenedor {
+  flex-flow: row nowrap;
+}
+.paleta-colores {
+  width: 30%;
+  align-self: center;
+  padding-left: 2%;
 }
 
 @media (max-width: 700px) {
@@ -129,7 +127,7 @@ button {
   background: #1a4301;
   cursor: pointer;
   margin-bottom: 5px;
-  overflow: hidden
+  overflow: hidden;
 }
 
 button:hover {
@@ -193,9 +191,9 @@ a {
   padding-left: 5%;
   justify-content: center;
 }
-.fondo-ods{
+.fondo-ods {
   background: url(../imagenes/ods12.jpeg) no-repeat center bottom;
-  background-size:contain;
+  background-size: contain;
   background-position: right;
   flex-grow: 1;
   display: flex;
@@ -240,12 +238,12 @@ header div {
   gap: 2rem;
 }
 
-.texto_construccion{
-    text-align: center;
+.texto_construccion {
+  text-align: center;
 }
 
-.paleta-colores{
-  background-size:contain;
+.paleta-colores {
+  background-size: contain;
   background-position: right;
   flex-grow: 1;
   display: flex;
@@ -254,4 +252,3 @@ header div {
   margin-right: 5%;
   justify-content: center;
 }
-
