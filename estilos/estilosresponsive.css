@@ -40,82 +40,6 @@ input {
   width: 50%;
 }
 
-@media (min-width: 701px) {
-  .contenedor {
-    flex-flow: row nowrap;
-  }
-
-  .burger {
-    display: none;
-  }
-  .footer {
-    position: fixed;
-    bottom: 0px;
-  }
-}
-
-.contenedor {
-  flex-flow: row nowrap;
-}
-.paleta-colores {
-  width: 30%;
-  align-self: center;
-  padding-left: 2%;
-}
-
-@media (max-width: 700px) {
-  .integrante {
-    min-width: 100px;
-  }
-
-  .integrante {
-    min-width: 200px;
-  }
-  .navbar {
-    display: none;
-  }
-
-  .navbar img {
-    display: none;
-  }
-
-  .navbar a {
-    display: block;
-    border-bottom: 1px solid#1A4301;
-  }
-
-  .burger {
-    box-sizing: border-box;
-    display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-    background-color: white;
-  }
-
-  input:checked ~ .navbar {
-    display: block;
-  }
-
-  footer {
-    margin-top: 16px;
-  }
-
-  .contenedor {
-    flex-flow: column nowrap;
-  }
-
-  .col-2 {
-    width: 100%;
-  }
-
-  main {
-    min-height: 85vh;
-  }
-}
 button {
   font-family: "Poppins", sans-serif;
   min-width: 25%;
@@ -251,4 +175,81 @@ header div {
   padding-left: 5%;
   margin-right: 5%;
   justify-content: center;
+}
+
+@media (min-width: 701px) {
+  .contenedor {
+    flex-flow: row nowrap;
+  }
+
+  .burger {
+    display: none;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+  }
+}
+
+.contenedor {
+  flex-flow: row nowrap;
+}
+.paleta-colores {
+  width: 30%;
+  align-self: center;
+  padding-left: 2%;
+}
+
+@media (max-width: 700px) {
+  .integrante {
+    min-width: 100px;
+  }
+
+  .integrante {
+    min-width: 200px;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .navbar img {
+    display: none;
+  }
+
+  .navbar a {
+    display: block;
+    border-bottom: 1px solid#1A4301;
+  }
+
+  .burger {
+    box-sizing: border-box;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-color: white;
+  }
+
+  input:checked ~ .navbar {
+    display: block;
+  }
+
+  footer {
+    margin-top: 16px;
+  }
+
+  .contenedor {
+    flex-flow: column nowrap;
+  }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  main {
+    min-height: 85vh;
+  }
 }
