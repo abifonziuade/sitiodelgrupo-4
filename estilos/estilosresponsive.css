@@ -8,6 +8,14 @@ body {
   box-sizing: border-box;
 }
 
+h2 {
+  color: #245501;
+}
+
+h1 {
+  color: #245501;
+}
+
 main {
   margin-left: 2%;
 }
@@ -128,6 +136,10 @@ a {
 }
 footer {
   width: 100%;
+  margin-top: auto;
+  position: fixed;
+  text-align: right;
+  bottom: 0;
   border-top: 1px solid #e5ebf1;
   background-color: white;
 }
@@ -177,6 +189,8 @@ header div {
   justify-content: center;
 }
 
+
+
 @media (min-width: 701px) {
   .contenedor {
     flex-flow: row nowrap;
@@ -185,10 +199,7 @@ header div {
   .burger {
     display: none;
   }
-  .footer {
-    position: fixed;
-    bottom: 0px;
-  }
+  
 }
 
 .contenedor {
