@@ -150,6 +150,7 @@ a {
   padding-left: 5%;
   justify-content: center;
 }
+
 footer {
   width: 100%;
   margin-top: auto;
@@ -322,6 +323,11 @@ color: #347904;
 .logo {
   width: 50%;
 }
+
+p{
+  font-size: 20px;
+}
+
 
 @media (max-width: 860px) {
   .header {
