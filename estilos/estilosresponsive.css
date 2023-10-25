@@ -358,4 +358,18 @@ p{
       margin-left: 5%;
       margin-top: 3%;
   }
+
+  .texto {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .item-identidad {
+    flex: 0 0 100%;
+  }
+
+  .item-identidad-imagen {
+    flex: 0 0 100%;
+  }
 }
+
